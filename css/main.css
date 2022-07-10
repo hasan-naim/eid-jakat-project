@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -69,7 +70,12 @@ p {
 
   padding: 14px 1.2rem;
 }
-
+.b-r-5 {
+  border-radius: 5px;
+}
+.b-r-10 {
+  border-radius: 10px;
+}
 .hero-img {
   background-image: url(../assets/big-hero.png);
   width: 100%;
@@ -98,6 +104,17 @@ header .description {
   color: white;
 }
 
+.depend {
+  margin-top: 100px;
+}
+.depend .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.depend .d-flex > * {
+  flex: 1;
+}
 @media (max-width: 560px) {
   .container {
     width: 100%;
