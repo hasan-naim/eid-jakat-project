@@ -160,6 +160,18 @@ header .description {
   width: 90%;
 }
 
+/* human sunset */
+
+.human-sunset {
+  margin-top: 100px;
+}
+.human-sunset .d-flex {
+  gap: 24px;
+}
+.human-sunset img {
+  max-width: 365px;
+}
+
 @media (max-width: 560px) {
   .container {
     width: 100%;
