@@ -134,6 +134,32 @@ header .description {
 .survive {
   margin-top: 100px;
 }
+
+/* donation section */
+.donation {
+  margin-top: 100px;
+}
+.heading {
+  margin: 0 auto;
+  max-width: 650px;
+}
+.donation .cards {
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-direction: row;
+}
+.donation .card {
+  background: #fef4f5;
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+.donation .card .icon {
+  width: 90%;
+}
+
 @media (max-width: 560px) {
   .container {
     width: 100%;
